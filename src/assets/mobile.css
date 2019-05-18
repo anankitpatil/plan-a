@@ -1,0 +1,333 @@
+  /* Plan-a.co.in
+  Mobile styles
+  Ankit Patil */
+
+  @media only screen and (max-width: 75em) {
+    .page:not(.about) .first p, .page .last p {
+      font-size: 27px;
+      line-height: 36px;
+    }
+    .services .split h2 {
+      font-size: 75px;
+    }
+    .page .split p {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (min-width: 64em) {
+    .clients .icons .col-md-2 {
+      -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+  }
+  @media only screen and (max-width: 64em) {
+    .mobile-menu {
+      left: -50%;
+      width: 50%;
+    }
+    .page:not(.about) .first p, .page .last p {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .services .split h2 {
+      font-size: 60px;
+    }
+    .page .split p {
+      font-size: 21px;
+    }
+  }
+  @media only screen and (min-width: 48em) {
+    .logo-right:hover img:nth-child(2) {
+      opacity: 1;
+    }
+  }
+  @media only screen and (max-width: 48em) {
+    #app {
+      -webkit-overflow-scrolling: touch;
+    }
+    .mobile-menu {
+      left: -100%;
+      width: 100%;
+    }
+    .mobile-menu .container .logo {
+      width: 120px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .mobile-menu .container>a {
+      margin-top: 15px;
+      font-size: 21px;
+    }
+    .mobile-menu .social {
+      padding-top: 15px;
+    }
+    .mobile-btn {
+      left: 15px;
+      top: 15px;
+    }
+    .logo-right {
+      right: 24px;
+      top: 24px;
+    }
+    .logo-right img {
+      width: 36px;
+    }
+    .scroll-btn {
+      right: 27px;
+      bottom: 27px;
+    }
+    /* Home page */
+    .bg-one, .bg-two, .bg-three, .bg-four, .bg-five {
+      background-position: 66% center;
+    }
+    .bg-three {
+      background-position: 57% center;
+      background-color: #e3b2b3;
+      background-size: auto 75%;
+    }
+    .bg-three .bottom {
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      background: #c8dfe5;
+      height: 24%;
+    }
+    .elem-one {
+      height: auto;
+      width: 96%;
+      left: 2%;
+      top: 36%;
+    }
+    .text-one-digital, .text-one-simple, .text-two-deliver, .text-two-delight, .text-three-simplify, .text-four-mind, .text-five-lets {
+      top: 18%;
+    }
+    .text-one-radical {
+      top: calc(18% + 12px + 6.842873vw);
+    }
+    .elem-two {
+      height: auto;
+      width: 100%;
+      left: 0;
+      top: 48%;
+    }
+    .text-two-deliver, .text-two-delight {
+      width: 81%;
+    }
+    .text-two-delight {
+      left: 9.5%;
+      top: calc(18% + 12px + 14.3775vw);
+    }
+    .text-two-deviate {
+      width: 81%;
+      left: 9.5%;
+      top: calc(18% + 24px + 14.3775vw + 16.805961vw);
+    }
+    .elem-three {
+      margin-left: 81px;
+      height: 35%;
+    }
+    .text-three-extra {
+      top: calc(18% + 4.242770vw + 12px);
+    }
+    .text-three-ordinary {
+      top: calc(18% + 4.242770vw + 24px + 19.768531vw);
+    }
+    .three .elem-three {
+      transform: rotate(0deg) translateX(-60px) translateY(-60px);
+    }
+    .elem-four {
+      height: 54%;
+      left: 42%;
+      top: 36%;
+    }
+    .text-four-tickling {
+      top: calc(18% + 12px + 24.113207vw);
+    }
+    .text-four-ideas {
+      top: calc(18% + 24px + 24.113207vw + 9.464192vw);
+    }
+    .elem-five {
+      height: 18%;
+      left: 18%;
+      bottom: 18%;
+    }
+    .elem-five-2 {
+      height: 30%;
+      top: 30%;
+    }
+    .text-five-talk {
+      top: calc(18% + 12px + 4.802752vw);
+    }
+    .text-five-results {
+      top: calc(18% + 24px + 4.802752vw + 22.290146vw);
+    }
+    .page:not(.about) .first p, .page .last p {
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 1px;
+    }
+    .page .last {
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+    /* Clients */
+    .clients .first h1 {
+      font-size: 105px;
+    }
+    .clients .first h1:first-child+span {
+      font-size: 18px;
+      line-height: 18px;
+      padding: 6px 3px 0px;
+      top: 87px;
+      margin-right: -31px;
+    }
+    .clients .icons>div:first-child {
+      margin-bottom: 30px;
+    }
+    .clients .icons h2 {
+      font-size: 60px;
+      margin: 60px 0 -15px;
+    }
+    .clients .success h3 {
+      font-size: 18px;
+    }
+    .clients .success h2 {
+      font-size: 60px;
+    }
+    /* Services */
+    .services .first {
+      padding-top: 30px;
+    }
+    .services .first span {
+      font-size: 2rem;
+      height: 60px;
+      width: 60px;
+      line-height: 69px;
+      margin-right: 9px;
+    }
+    .services .first span.zero {
+      line-height: 63px;
+    }
+    .services .first h1 {
+      font-size: 2rem;
+      min-width: 165px;
+      margin-bottom: 60px;
+    }
+    .services .split:nth-child(3)>div>div>div:last-child, .services .split:nth-child(5)>div>div>div:last-child, .services .split:nth-child(7)>div>div>div:last-child {
+      -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+      order: -1;
+    }
+    .services .split h2 {
+      font-size: 45px;
+      line-height: 45px;
+      text-align: center;
+    }
+    .services .split p {
+      font-size: 18px;
+      letter-spacing: .3px;
+      text-align: center;
+    }
+    .services .split img {
+      width: 100%;
+      max-width: 240px;
+      margin-left: 0 !important;
+      margin-bottom: 15px;
+    }
+    .services .split:nth-child(3)>div>div>div:last-child img {
+      margin-left: -15px !important;
+      max-width: 270px;
+    }
+    /* About */
+    .about .first p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .about .first h1 {
+      font-size: 60px;
+    }
+    .about .first h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+    /* Contact */
+    .contact .first {
+      padding-top: 30px;
+    }
+    .contact .first h1 img {
+      width: 120px;
+    }
+    .contact .first h1 {
+      font-size: 42px;
+    }
+    .contact .first h1 span {
+      font-size: 105px;
+    }
+    .contact .block h4 {
+      font-size: 36px;
+    }
+    .contact .block .success {
+      font-size: 15px;
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+    .contact .block .copy {
+      display: none;
+    }
+    .contact .last {
+      margin-top: -60px;
+      margin-bottom: 48px;
+      pointer-events: none;
+      position: relative;
+    }
+    .contact .last .hand {
+      width: 100%;
+      margin-bottom: -60px;
+    }
+    .contact .last .copy {
+      display: block;
+      position: absolute;
+      left: 10px;
+      top: 60px;
+      font-size: 11px;
+      font-family: 'gm';
+      color: #FFF;
+    }
+  }
+  @media only screen and (max-width: 24em) {
+    .services .split img {
+      width: 100%;
+      max-width: 180px;
+      margin-left: 0 !important;
+      margin-bottom: 15px;
+    }
+    .about .first p {
+      font-size: 17px;
+      line-height: 21px;
+    }
+    .about .first h1 {
+      font-size: 45px;
+    }
+    .about .first h2 {
+      margin-top: 36px;
+      font-size: 24px;
+    }
+    .about .bulb {
+      font-size: 60px;
+      padding-top: 30px;
+    }
+    .about .last {
+      margin-top: 30px;
+    }
+    .contact .first h1 {
+      font-size: 36px;
+    }
+    .contact .first h1 span {
+      vertical-align: -24px;
+    }
+    .contact .block p {
+      font-size: 15px;
+    }
+  }
